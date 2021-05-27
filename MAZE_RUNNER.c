@@ -84,7 +84,7 @@ void maze_print(char maze[MAZE_SIZE][MAZE_SIZE]) {
 	printf("\n");
 	for (int r = 0; r < MAZE_SIZE; r++) {
 		for (int c = 0; c < MAZE_SIZE; c++) {
-			printf("%c", maze[r][c]);
+			printf("%2c", maze[r][c]);
 		}
 		printf("\n");
 	}
